@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relative position</title>
+    <style>
+    .box2 {
+        position: relative;
+        /* box2 will be moved 50px
+        from the left and 20px
+        from the bottom. */
+        bottom: 55px;
+        left: 120px;
+        background-color: darkred;
+      }      
+      div {
+        width:  100px;
+        height: 50px;
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        padding-top: 50px;
+        box-sizing: border-box;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div class="box2">2</div>
+    <div>3</div>
+    <div>4</div>
+  </body>
+</html>
